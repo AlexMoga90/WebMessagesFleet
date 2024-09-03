@@ -1,6 +1,6 @@
-package com.example.messagingapp.repository;
+package messagingapp.repository;
 
-import com.example.messagingapp.model.Message;
+import messagingapp.model.Message;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

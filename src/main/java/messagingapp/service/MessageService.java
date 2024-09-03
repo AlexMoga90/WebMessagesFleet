@@ -3,7 +3,7 @@ package messagingapp.service;
 import messagingapp.model.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.messagingapp.repository.MessageRepository;
+import messagingapp.repository.MessageRepository;
 
 import java.util.List;
 
