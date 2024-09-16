@@ -1,9 +1,16 @@
 package messagingapp.model;
-
+import javax.persistence.*;
+import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "users")
 public class User {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String phoneNumber;
     private String password;
     private boolean isDispacher;
