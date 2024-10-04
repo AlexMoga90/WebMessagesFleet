@@ -37,4 +37,7 @@ public class User {
     public void setDispacher(boolean dispacher) {
         isDispacher = dispacher;
     }
+
+    public void setRole(Role role) {
+    }
 }

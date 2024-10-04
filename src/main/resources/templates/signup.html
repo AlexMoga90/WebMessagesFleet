@@ -1,0 +1,16 @@
+<form action="/signup" method="post">
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="text" id="phoneNumber" name="phoneNumber" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required minlength="8">
+
+    <label for="role">Role:</label>
+    <select id="role" name="role">
+        <option value="DISPATCHER">Dispatcher</option>
+        <option value="DRIVER">Driver</option>
+    </select>
+
+    <button type="submit">Register</button>
+</form>
+
